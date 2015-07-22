@@ -1,0 +1,63 @@
+ Using javascript to create a shop interface 
+Meant for users with temporary stalls or organizations that hold fundraisers. 
+Features include: 
+- adding items into inventory
+- removing items from inventory
+- selling an item to list (able to list amount of each) 
+- removing an item from list 
+- summing up the value of the list
+- printing out the amount of change to be returned to customer
+- summing up the sales for the day 
+
+Simple Shop
+_________________________________________________
+ADD || REMOVE || PAY || INVENTORY || TOTAL SALES 
+________________________________________________
+
+
+
+
+
+
+
+
+________________________________________________
+TOTAL: 
+________________________________________________
+
+- drop down menu for inventory 
+	- register starting money
+	- inventories ( add) 
+	- inventories (remove) 
+
+- use dialog boxes to add 
+
+
+add_item function
+	- use prompt to get item name
+	- var name = prompt("What is the item's name?");
+	- use prompt to get item quantity 
+	- var quan = prompt("Amount of the item that you are adding?")
+
+class item 
+constructor: 
+function item(name, quan) {
+	this.name = name; 
+	this.quan = quan; 
+}
+
+
+create a temp item 
+var temp = new item(x, y); 
+
+create an array to keep the items 
+var inventory = new Array(); 
+
+use length of inventory as an index
+inventory[invetory.length] =  temp; 
+
+
+
+
+
+
