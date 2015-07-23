@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
 	<script src="myscript.js"></script>
 
 </head>
-<body>
-	<h3>Simple Shop</h3>
 
+	
+<body>
+
+	<div id="page-wrap">
+	<h3>SIMPLE SHOP</h3>
+	
 	<div class= "key1">
+		
 		<button onclick="sell()">SELL</button>
 		<button onclick="erase()">VOID</button>
-		<button>PAY</button>
-		<button onclick="print_all()">TOTAL SALES</button>
+		<button onclick="checkout()">PAY</button>
+		<button onclick="checksales()">TOTAL SALES</button>
 	</div>
 
 	<div class= "key2">
+		<p>INVENTORY:</p>
 		<button onclick="add_item()">add item</button>
 		<button onclick="edit_item()">edit item</button>
+		<button onclick="addfav()">add to favs</button>
+	</div>
+
+	<div class = "fav">
+		<button id="1" onclick="sellfav(1)">1</button>
+		<button id="2" onclick="sellfav(2)">2</button>
+		<button id="3" onclick="sellfav(3)">3</button>
+		<button id="4" onclick="sellfav(4)">4</button>
+		<button id="5" onclick="sellfav(5)">5</button>
+		<button id="6" onclick="sellfav(6)">6</button>
+		<button id="7" onclick="sellfav(7)">7</button>
+		<button id="8" onclick="sellfav(8)">8</button>
+		<button id="9" onclick="sellfav(9)">9</button>
+		<button id="10"onclick="sellfav(10)">10</button>
 	</div>
 
 	<div class="bottom">
-		<p>Total:</p>
-		<div id="screen"></div>
+		<p>TOTAL:</p> 
+		<p id="screen"></p>
 	</div>
 
 	<ul id="alist">
 	</ul>	
+
+	
+	</div>
 </body>
+
+
 </html> 
