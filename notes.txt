@@ -57,5 +57,5 @@ inventory[invetory.length] =  temp;
 
 
 
-
-
+LINK TO page : 
+https://htmlpreview.github.io/?https://github.com/nliampisan/simple_shop/blob/master/index.html
